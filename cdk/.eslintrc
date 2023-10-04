@@ -1,0 +1,30 @@
+// https://github.com/aws/aws-cdk/blob/5837373c1d4762b71d05d07f6791b923951b14f5/docs/DESIGN_GUIDELINES.md#coding-style
+{
+  "@typescript-eslint/naming-convention": [
+    "error",
+    {
+      "selector": "class",
+      "format": ["PascalCase"]
+    },
+    {
+      "selector": "method",
+      "format": ["camelCase"]
+    },
+    {
+      "selector": "function",
+      "format": ["camelCase"]
+    },
+    {
+      "selector": "interface",
+      "format": ["PascalCase"]
+    },
+    {
+      "selector": "enum",
+      "format": ["PascalCase"]
+    },
+    {
+      "selector": "enumMember",
+      "format": ["UPPER_CASE"]
+    }
+  ]
+}
